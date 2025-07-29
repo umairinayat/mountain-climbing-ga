@@ -1,0 +1,162 @@
+
+CM3020 AI COURSEWORK PART B - COMPARATIVE ANALYSIS REPORT
+================================================================================
+
+GENERATED: 2025-06-19 06:44:50
+EXPERIMENTS COMPARED: 3
+
+EXECUTIVE SUMMARY
+========================================
+This report presents a comprehensive comparative analysis of 3 
+mountain climbing genetic algorithm experiments. Each experiment used different
+configurations to explore the optimization landscape.
+
+EXPERIMENTS ANALYZED:
+  • Very Large Population 80
+  • Very Large Population 100
+  • Massive Population 120
+
+PERFORMANCE RANKINGS
+========================================
+
+FITNESS RANKING (Best to Worst):
+ 1. Very Large Population 100 - 315.6136
+ 2. Massive Population 120    - 49.4146
+ 3. Very Large Population 80  - 48.1960
+
+CLIMBING HEIGHT RANKING (Best to Worst):
+ 1. Very Large Population 100 - 11.4085 units
+ 2. Very Large Population 80  - 5.0000 units
+ 3. Massive Population 120    - 5.0000 units
+
+CONVERGENCE SPEED RANKING (Fastest to Slowest):
+ 1. Very Large Population 80  - Generation 10
+ 2. Very Large Population 100 - Generation 10
+ 3. Massive Population 120    - Generation 10
+
+EFFICIENCY RANKING (Most to Least Efficient):
+ 1. Massive Population 120    - 0.5005 fitness/min
+ 2. Very Large Population 80  - 0.3377 fitness/min
+ 3. Very Large Population 100 - 0.2335 fitness/min
+
+
+CONFIGURATION ANALYSIS
+========================================
+
+PARAMETER RANGES:
+Population Size: 80 - 120
+Mutation Rate: 0.100 - 0.150
+Generations: 150 - 200
+
+DETAILED EXPERIMENT CONFIGURATIONS:
+
+Very Large Population 80:
+  Population Size: 80
+  Generations: 150
+  Mutation Rate: 0.150
+  Best Fitness: 48.1960
+  Best Height: 5.0000 units
+  Execution Time: 142.71 minutes
+
+Very Large Population 100:
+  Population Size: 100
+  Generations: 180
+  Mutation Rate: 0.120
+  Best Fitness: 315.6136
+  Best Height: 11.4085 units
+  Execution Time: 1351.45 minutes
+
+Massive Population 120:
+  Population Size: 120
+  Generations: 200
+  Mutation Rate: 0.100
+  Best Fitness: 49.4146
+  Best Height: 5.0000 units
+  Execution Time: 98.74 minutes
+
+
+STATISTICAL ANALYSIS
+========================================
+
+PERFORMANCE STATISTICS:
+Mean Best Fitness: 137.7414
+Standard Deviation: 125.7757
+Minimum: 48.1960
+Maximum: 315.6136
+Range: 267.4176
+Coefficient of Variation: 91.31%
+
+CORRELATIONS:
+Population Size Vs Fitness: 0.0040
+Mutation Rate Vs Fitness: -0.1186
+Generations Vs Fitness: 0.1186
+
+
+KEY INSIGHTS AND FINDINGS
+========================================
+
+1. BEST OVERALL PERFORMER:
+   Experiment: Very Large Population 100
+   Best Fitness: 315.6136
+   Configuration: Pop=100, 
+                 Mut=0.120, 
+                 Gen=180
+
+2. PERFORMANCE VARIATION:
+   Best vs Worst Gap: 267.4176 (554.9% improvement)
+   
+3. FASTEST CONVERGENCE:
+   Experiment: Very Large Population 80
+   Convergence: Generation 10
+
+4. MOST EFFICIENT:
+   Experiment: Massive Population 120
+   Efficiency: 0.5005 fitness/minute
+
+CONFIGURATION RECOMMENDATIONS:
+========================================
+
+Based on the comparative analysis:
+
+FOR MAXIMUM PERFORMANCE:
+Use configuration from 'Very Large Population 100' experiment:
+- Population Size: 100
+- Mutation Rate: 0.120
+- Generations: 180
+
+FOR FASTEST RESULTS:
+Use configuration from 'Very Large Population 80' experiment for rapid prototyping.
+
+FOR EFFICIENCY:
+Use configuration from 'Massive Population 120' experiment for resource-constrained environments.
+
+PARAMETER INSIGHTS:
+• Population size shows weak correlation with performance
+• Mutation rate shows weak correlation with performance
+
+
+FILES GENERATED:
+========================================
+Visualization Files:
+  • performance_comparison.png - Main performance metrics comparison
+  • evolution_trajectories.png - Evolution curves for all experiments
+  • config_vs_performance.png - Configuration parameter analysis
+  • convergence_comparison.png - Convergence analysis
+  • efficiency_analysis.png - Efficiency and resource utilization
+  • statistical_comparison.png - Statistical analysis and rankings
+
+Data Files:
+  • statistical_analysis.json - Detailed statistical analysis
+  • comparison_data.json - Complete comparison dataset
+  • experiment_summary.csv - Summary table for further analysis
+
+CONCLUSION:
+========================================
+The comparative analysis reveals significant differences in performance across
+different GA configurations for the mountain climbing task. The results provide
+clear guidance for parameter selection based on specific objectives (performance,
+speed, or efficiency).
+
+================================================================================
+END OF COMPARATIVE ANALYSIS REPORT
+================================================================================

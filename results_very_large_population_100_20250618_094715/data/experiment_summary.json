@@ -1,0 +1,52 @@
+{
+  "experiment_name": "very_large_population_100",
+  "timestamp": "20250618_094715",
+  "config_summary": {
+    "population_size": 100,
+    "generations": 180,
+    "mutation_rate": 0.12,
+    "gene_count_range": [
+      8,
+      15
+    ]
+  },
+  "performance_summary": {
+    "best_fitness": 62.87806708735663,
+    "final_fitness": 62.87806708735663,
+    "best_height": 5.0,
+    "generations_completed": 180,
+    "total_time_minutes": 83.04481866359711
+  },
+  "convergence_info": {
+    "convergence_generation": 11,
+    "final_improvement_rate": 0.7192498308827987,
+    "fitness_variance": 38.15391944135744,
+    "plateau_detected": "False",
+    "convergence_quality": "low"
+  },
+  "files_generated": {
+    "data": [
+      "experiment_config.json",
+      "final_results.json",
+      "generation_data.json",
+      "generation_data.csv"
+    ],
+    "graphs": [
+      "progress_gen_040.png",
+      "progress_gen_120.png",
+      "progress_gen_060.png",
+      "progress_gen_080.png",
+      "progress_gen_160.png",
+      "progress_gen_100.png",
+      "progress_gen_020.png",
+      "progress_gen_140.png"
+    ],
+    "creatures": [],
+    "logs": [],
+    "analysis": [],
+    "reports": [],
+    "raw": [
+      "generation_data.pkl"
+    ]
+  }
+}

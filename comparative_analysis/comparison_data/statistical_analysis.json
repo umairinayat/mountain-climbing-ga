@@ -1,0 +1,50 @@
+{
+  "experiment_count": 3,
+  "performance_statistics": {
+    "mean_best_fitness": 137.74140317064757,
+    "std_best_fitness": 125.77565305769409,
+    "min_best_fitness": 48.195999232061986,
+    "max_best_fitness": 315.6136461918944,
+    "range_best_fitness": 267.41764695983244
+  },
+  "rankings": {
+    "fitness": [
+      "very_large_population_100",
+      "massive_population_120",
+      "very_large_population_80"
+    ],
+    "height": [
+      "very_large_population_100",
+      "very_large_population_80",
+      "massive_population_120"
+    ],
+    "convergence_speed": [
+      "very_large_population_80",
+      "very_large_population_100",
+      "massive_population_120"
+    ],
+    "efficiency": [
+      "massive_population_120",
+      "very_large_population_80",
+      "very_large_population_100"
+    ]
+  },
+  "correlations": {
+    "population_size_vs_fitness": 0.00395527279848228,
+    "mutation_rate_vs_fitness": -0.11863613477830269,
+    "generations_vs_fitness": 0.11863613477830257
+  },
+  "significance_tests": {
+    "fitness_variance_test": {
+      "variance": 15819.514902089431,
+      "coefficient_of_variation": 0.91312887891719,
+      "significant_difference": "True"
+    },
+    "best_vs_worst": {
+      "best_experiment": "very_large_population_100",
+      "worst_experiment": "very_large_population_80",
+      "performance_gap": 267.41764695983244,
+      "relative_improvement": 5.5485445103487985
+    }
+  }
+}

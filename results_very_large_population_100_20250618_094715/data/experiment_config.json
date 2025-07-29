@@ -1,0 +1,36 @@
+{
+  "experiment_name": "very_large_population_100",
+  "population_size": 100,
+  "generations": 180,
+  "gene_count_range": [
+    8,
+    15
+  ],
+  "mutation_rate": 0.12,
+  "crossover_rate": 0.85,
+  "simulation_time": 15,
+  "target_fitness": 250.0,
+  "elite_size": 10,
+  "tournament_size": 5,
+  "min_generations": 80,
+  "mountain_type": "gaussian_pyramid",
+  "mutation_amount": 0.25,
+  "shrink_rate": 0.1,
+  "grow_rate": 0.05,
+  "arena_size": 20,
+  "mountain_height": 5,
+  "simulation_steps": 2400,
+  "gui": false,
+  "save_interval": 10,
+  "plot_interval": 20,
+  "convergence_patience": 15,
+  "adaptive_mutation": false,
+  "immigrant_rate": 0.0,
+  "evolution_mode": "full",
+  "fitness_objectives": [
+    "climbing"
+  ],
+  "objective_weights": [
+    1.0
+  ]
+}

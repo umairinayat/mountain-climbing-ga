@@ -1,0 +1,83 @@
+
+CM3020 AI COURSEWORK PART B - EXPERIMENT REPORT
+================================================================================
+
+EXPERIMENT: very_large_population_100
+TIMESTAMP: 20250618_094715
+GENERATED: 2025-06-18 11:10:26
+
+EXPERIMENT CONFIGURATION
+========================================
+Population Size: 100
+Generations: 180
+Gene Count Range: (8, 15)
+Mutation Rate: 0.12
+Crossover Rate: 0.85
+Elite Size: 10
+Arena Size: 20 units
+Mountain Height: 5 units
+Simulation Time: 15 seconds
+
+PERFORMANCE RESULTS
+========================================
+Best Fitness Achieved: 62.8781
+Best Climbing Height: 5.0000 units
+Generations Completed: 180
+Total Execution Time: 83.04 minutes
+
+EVOLUTION ANALYSIS
+========================================
+Convergence Generation: 11
+Final Improvement Rate: 0.719250
+Fitness Variance (final): 38.1539
+
+PERFORMANCE SUMMARY
+========================================
+Initial Fitness: 43.7278
+Final Fitness: 62.8781
+Total Improvement: 19.1503
+Maximum Fitness: 134.9135
+Maximum Height: 7.9646 units
+Average Final Performance: 57.2772
+
+FINAL GENERATION STATISTICS
+========================================
+Population Size: 100
+Max Fitness: 62.8781
+Mean Fitness: 42.1320
+Fitness Std Dev: 8.2763
+Mean Gene Count: 2.03
+Max Gene Count: 3
+Best Height Reached: 5.0000 units
+Mean Height Reached: 5.0000 units
+
+FILES GENERATED
+========================================
+Data Files:
+  • experiment_config.json
+  • final_results.json
+  • generation_data.json
+  • experiment_summary.json
+  • generation_data.csv
+
+Visualization Files:
+  • progress_gen_040.png
+  • progress_gen_120.png
+  • progress_gen_060.png
+  • progress_gen_080.png
+  • progress_gen_160.png
+  • progress_gen_100.png
+  • detailed_analysis.png
+  • progress_gen_020.png
+  • progress_gen_140.png
+  • evolution_summary.png
+
+Creature Files:
+
+
+EXPERIMENT COMPLETED: 2025-06-18 11:10:26
+TOTAL FILES GENERATED: 16
+RESULTS DIRECTORY: results_very_large_population_100_20250618_094715
+
+================================================================================
+END OF REPORT

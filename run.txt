@@ -1,0 +1,25 @@
+# Run specific high-value experiments
+python mountain_climbing_ga.py --experiment very_large_population_100
+python mountain_climbing_ga.py --experiment marathon_evolution_300
+python mountain_climbing_ga.py --experiment extreme_mutation_40
+
+# Run experiment groups
+python mountain_climbing_ga.py --group population_scaling
+python mountain_climbing_ga.py --group advanced_genetic_decoding
+python mountain_climbing_ga.py --group multi_objective
+
+# See all available experiments
+python mountain_climbing_ga.py --list
+
+# View experiment schedule and time estimates
+python mountain_climbing_ga.py --schedule
+
+# Good starting experiments that will show real evolution
+python mountain_climbing_ga.py --experiment marathon_evolution_200
+python mountain_climbing_ga.py --experiment balanced_high_performance
+python mountain_climbing_ga.py --experiment multi_objective_full
+
+# Or run a whole group
+python mountain_climbing_ga.py --group population_scaling
+
+
